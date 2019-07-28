@@ -1,0 +1,49 @@
+{
+  "name": "reactNativeBoilerplate",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "android-clean-run": "cd android && ./gradlew clean && cd .. && react-native run-android"
+  },
+  "dependencies": {
+    "prop-types": "15.7.2",
+    "react": "16.8.3",
+    "react-native": "^0.59.10",
+    "react-native-firebase": "^5.5.5",
+    "react-native-gesture-handler": "^1.3.0",
+    "react-native-keyboard-aware-scroll-view": "0.8.0",
+    "react-native-swiper": "1.5.14",
+    "react-navigation": "^3.11.1",
+    "react-redux": "7.1.0",
+    "redux": "4.0.1",
+    "redux-logger": "3.0.6",
+    "redux-persist": "5.10.0",
+    "redux-saga": "1.0.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/preset-flow": "^7.0.0",
+    "@babel/runtime": "^7.5.4",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.8.0",
+    "babel-plugin-module-resolver": "^3.1.2",
+    "babel-preset-flow": "^6.23.0",
+    "eslint": "5.12.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-import-resolver-babel-module": "5.1.0",
+    "eslint-plugin-import": "2.14.0",
+    "eslint-plugin-jsx-a11y": "6.1.1",
+    "eslint-plugin-react": "7.11.0",
+    "flow-bin": "^0.102.0",
+    "jest": "^24.8.0",
+    "metro-react-native-babel-preset": "^0.54.1",
+    "prettier": "^1.18.2",
+    "prettier-eslint": "^9.0.0",
+    "react-test-renderer": "^16.8.6"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

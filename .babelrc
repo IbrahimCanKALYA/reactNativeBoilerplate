@@ -1,0 +1,22 @@
+{
+  "presets": ["module:metro-react-native-babel-preset", "@babel/preset-flow"],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ["./app"],
+        "alias": {
+          "app": "./app",
+          "components": "./app/components",
+          "store": "./app/redux/store",
+          "actions": "./app/redux/actions",
+          "reducers": "./app/redux/reducers",
+          "sagas": "./app/redux/sagas",
+          "resources": "./app/resources",
+          "utils": "./app/utils"
+        }
+      }
+    ]
+  ],
+  "retainLines": true
+}
